@@ -68,26 +68,26 @@ def _scrape_search_term_on_twitter(search_term, lang='en'):
 
 def scrape_twitter():
     for search_term in [
-        # "housing market",
-        # "mortgage",
-        # "housing prices",
-        # "rent",
-        # "property",
-        # "real estate",
+        "housing market",
+        "mortgage",
+        "housing prices",
+        "rent",
+        "property",
+        "real estate",
         "economy"
     ]:
         _scrape_search_term_on_twitter(search_term, lang='en')
 
     for search_term in [
-        # "huizenmarkt",
-        # "huizenprijzen",
-        # "huurhuis",
-        # "hypotheek",
-        # "koophuis",
-        # "overbieden",
-        # "sociale huur",
-        # "huurwoning",
-        # "koopwoning",
+        "huizenmarkt",
+        "huizenprijzen",
+        "huurhuis",
+        "hypotheek",
+        "koophuis",
+        "overbieden",
+        "sociale huur",
+        "huurwoning",
+        "koopwoning",
         "economie",
         "jubelton"
     ]:
