@@ -1,0 +1,5 @@
+data
+.mypy_cache
+.env
+
+.idea
